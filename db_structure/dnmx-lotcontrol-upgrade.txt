@@ -1,0 +1,17 @@
+/*    TODO: Poner la propiedad UNIQUE en el atributo 'nomina_lcs' de la tabla 'tbl_usuarios' en la base de datos,
+         por cuestion de mejor práctica. Así ya no es necesario validar que al editar no se repita la nómina.
+         
+      TODO: 1. ¿El nombreado de tablas y columnas será por la terminación del sistema, ctrl, lcs o no tendrá terminación?
+            2. ¿Cuál sería el nombre del proyecto? ¿DNMX_CTRL O DNMX_LCS?
+            3. Entonces tambien el nombre de la base de datos cambiaría, pero yo me basé en dnmx-diecast -> a dnmx-lotcontrol. 
+
+      TODO: En caso de ser confirmado ya sea cualquiera de las 3 opciones, se tiene que cambiar de nombre todas las variables. 
+            Priorizar la forma en la que la tengo con lcs.
+
+      TODO: Para subir el codigo qr escaneado a la base de datos pudiesemos agregar a las entradas y salidas la columna "codigo_qr"
+            y poner la propiedad UNIQUE a esa columna, ademas, de guardar el fragmentado. Así podriamos sustituir la comparación del codigo qr de la sesión 
+
+
+    
+    
+*/

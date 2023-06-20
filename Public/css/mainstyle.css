@@ -1,0 +1,283 @@
+.border-valid-one{
+    border:  1px solid red !important
+ }
+
+ .border-valid{
+    border:  1px solid red !important
+ }
+
+.switch-option{
+    display: none;
+}
+
+.proccess-container{
+    padding-top: 10px !important;
+}
+
+.filter-elements .elements{
+    padding-top: 15px;
+}
+
+.day-resumen h4{
+    padding-top:15px;
+    padding-left: 10px;
+}
+
+.calendar-content{
+    display: none;
+}
+
+tbody.main-kuteipro td:first-child{
+    position: sticky;
+    position: -webkit-sticky;
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    left: 0;
+    z-index: 1;
+}
+
+
+tbody.main-kuteipro td:nth-child(2){
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px; 
+    left: 50px;
+    z-index: 1;
+}
+
+tbody.main-kuteipro td:nth-child(3){
+    position: sticky;
+    position: -webkit-sticky;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px; 
+    left: 150px;
+    z-index: 1;
+
+}
+/*.kutei-table thead>tr>th{
+    writing-mode: sideways-lr;
+    -webkit-writing-mode: sideways-lr;
+     -ms-writing-mode: sideways-lr;
+}
+
+.info th{
+    writing-mode: sideways-lr;
+    -webkit-writing-mode: sideways-lr;
+    -ms-writing-mode: sideways-lr;
+}*/
+/*.kutei-container{
+    max-height: 600px;
+}
+
+.kutei-table{
+    position: relative;
+    border-collapse: collapse;
+}
+
+.kutei-table thead>tr{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.kutei-table .info>th{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    z-index: 2;
+}*/
+
+  
+.fixed{
+    top: 54px;
+    position:fixed;
+    width:auto;
+    display:none;
+    border:none;
+    z-index: 2;
+  }
+  
+.container-hidden {
+    opacity: 0;
+    -webkit-transition:   opacity 0.5s ease;
+    -moz-transition:  opacity 0.5s ease;
+    -ms-transition:  opacity 0.5s ease;
+    -o-transition:  opacity 0.5s ease;
+    transition:  opacity 0.5s ease;
+    transition-delay:0.2s;
+}
+  
+.container-visible {
+    opacity: 1;
+    -webkit-transition:   opacity 0.2s ease;
+    -moz-transition:  opacity 0.2s ease;
+    -ms-transition:  opacity 0.2s ease;
+    -o-transition:  opacity 0.2s ease;
+    transition:  opacity 0.2s ease;
+    transition-delay:0.2s;
+}
+
+.p-btn{
+    margin-left: 5px;
+}
+
+ /* The switch - the box around the slider */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 22px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 3px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  } 
+
+  .aprobado{
+    color: green;
+  }
+
+  .rechazado{
+    color: red;
+  }
+
+  .btn-add{
+    padding-top: 10px !important;
+    padding-right: 25px !important;
+  }
+
+  @media (min-width: 576px) { 
+    tbody.main-kuteipro  > tr > td{
+      white-space: initial !important;
+    }
+
+  }
+
+  @media (min-width: 768px) { 
+
+    tbody.main-kuteipro > tr > td{
+      white-space: initial !important;
+    }
+  }
+
+  @media (max-width: 768px) { 
+
+    tbody.main-kuteipro tr > td{
+      white-space: initial !important;
+    }
+  }
+
+  .container-draw{
+    font-size: 35px;
+    border: 2px dashed;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .container-draw:hover {
+    opacity: 0.5;
+  }
+
+  
+.image-preview img {
+  position: relative;
+  height: 165px;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+#userimage{
+  display: none;
+}
+
+#ui-datepicker-div {
+  z-index: 2000 !important;
+}
+
+.download{
+  font-size: 60px;
+}
+
+.item-notification{
+  background-color: #9EC46B;
+}
+
+.item-notification:hover{
+  cursor: pointer;
+}
+
+.item-notification-view:hover{
+  cursor: pointer;
+}
+
+.switch-container{
+  display: inline-flex;
+  padding: 20px 10px;
+}
+
+.training-calendar{
+  text-align: right;
+  font-size: 30px;
+}
+
+.show-all{
+  cursor: pointer;
+}

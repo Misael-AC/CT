@@ -1,0 +1,112 @@
+.container2{
+    width: 800px;
+    margin: 70px;
+}
+
+.tooltip2{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltiptext2{
+    visibility: hidden;
+    width: 200px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.tooltip2:hover .tooltiptext2{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip2 .tooltiptext2::after{
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -45px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltipRight{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltipRight .tooltiptextRight{
+    visibility: hidden;
+    width: 200px;
+    background-color: #000;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition:opacity 1s;
+}
+
+.tooltipRight:hover .tooltiptextRight{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltipRight .tooltiptextRight::after{
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -45px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #2da7df;
+}
+
+.estilosH2 {
+    font-family: lato,sans-serif;
+    font-weight: 100;
+    line-height: 1;
+    color: #2da7df;
+    line-height: 1;
+    display: inline-block;
+}
+
+.section-checkout {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
